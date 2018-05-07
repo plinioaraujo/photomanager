@@ -1,0 +1,9 @@
+body{
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+h1.linha {
+    background-color: aquamarine;
+    border: 2px rgb(14, 41, 3) dotted;
+}

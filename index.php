@@ -2,11 +2,12 @@
 
 require './lib/autoload.php';
 
-$smarty = new Smarty();
 
-$smarty -> setTemplateDir('view/');
-$smarty -> setCompileDir('view/compile');
-$smarty -> setCacheDir('view/cache');
+$smarty = new Template();
+
+
+//Valores para o template
+$smarty -> assign('nome', 'plinio araujo costa');
 
 $smarty -> display('index.tpl');
 
