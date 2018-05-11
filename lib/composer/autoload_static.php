@@ -25,7 +25,8 @@ class ComposerStaticInit1cce81a48b318898d9eaec75f14adfad
     );
 
     public static $classMap = array (
-        'Template' => __DIR__ . '/../..' . '/model/template.class.php',
+        'Rotas' => __DIR__ . '/../..' . '/model/Rotas.class.php',
+        'Template' => __DIR__ . '/../..' . '/model/Template.class.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
